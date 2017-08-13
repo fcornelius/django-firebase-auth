@@ -21,3 +21,13 @@ class FirebaseAuthentication(authentication.BaseAuthentication):
         except Exception as e:
             pass
 
+        if not id_token or not decoded_token:
+            return None
+
+        uid = decoded_token.get('uid')
+        try:
+            user = User.objects.get(username=uid)
+        except User.DoesNotExist:
+            raise exceptions.AuthenticationFailed('The user does not exist')
+
+        return (user, None)
