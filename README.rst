@@ -25,6 +25,12 @@ Quick start
     
    And place the json key inside BASE_DIR/keyfiles.
 
+2. Either set FirebaseAuthentication as the global default authentication class in settings, like::
+    
+    REST_FRAMEWORK = {
+        DEFAULT_AUTHENTICATION_CLASSES': ('firebase_auth.authentication.FirebaseAuthentication', ),
+    }
+
 
    
 
