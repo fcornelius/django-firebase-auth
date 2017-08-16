@@ -8,6 +8,15 @@ Simply setup your Firebase keyfile location and mark views which need authentica
 
 Detailed documentation is in the "docs" directory.
 
+Quick start
+-----------
+
+1. Add "firebase_auth" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'firebase_auth',
+    ]
 
    
 
