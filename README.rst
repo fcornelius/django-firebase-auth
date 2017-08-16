@@ -18,5 +18,13 @@ Quick start
         'firebase_auth',
     ]
 
+2. Specify a location for your Firebase keyfile with the settings::
+
+    KEYFILES_DIR = os.path.join(BASE_DIR, 'keyfiles')
+    FIREBASE_KEY = '<your-key-file>.json'
+    
+   And place the json key inside BASE_DIR/keyfiles.
+
+
    
 
