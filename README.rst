@@ -38,5 +38,7 @@ Quick start
     
    Note that the auth mixin has to be the first class extended by the view.
 
+4. Create your users with the Firebase user ID as user ID.
+   Inside your views, you can access the user reference like you're used to with  request.user
    
 
