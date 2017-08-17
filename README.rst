@@ -32,7 +32,8 @@ Quick start
     }
 
    Or extend specific views from FirebaseAuthMixin, like::
-    
+
+    from firebase_auth import FirebaseAuthMixin
     class MyModelViewSet(FirebaseAuthMixin, viewsets.ModelViewSet)
         ...
     
