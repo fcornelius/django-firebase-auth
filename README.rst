@@ -25,12 +25,18 @@ Quick start
     
    And place the json key inside BASE_DIR/keyfiles.
 
-2. Either set FirebaseAuthentication as the global default authentication class in settings, like::
+3. Either set FirebaseAuthentication as the global default authentication class in settings, like::
     
     REST_FRAMEWORK = {
         DEFAULT_AUTHENTICATION_CLASSES': ('firebase_auth.authentication.FirebaseAuthentication', ),
     }
 
+   Or extend specific views from FirebaseAuthMixin, like::
+    
+    class MyModelViewSet(FirebaseAuthMixin, viewsets.ModelViewSet)
+        ...
+    
+   Note that the auth mixin has to be the first class extended by the view.
 
    
 
