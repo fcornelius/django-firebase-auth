@@ -2,7 +2,7 @@
 django-firebase-auth
 =====
 
-django-firebase-auth is a authentication provider for Google's `Firebase Authentication Service <https://firebase.google.com/products/auth/>`_ which blends right into `django-rest-framework <http://www.django-rest-framework.org/>`_.
+django-firebase-auth is a authentication provider for Google's `Firebase Authentication Service <https://firebase.google.com/products/auth/>`_ which blends right into django-rest-framework.
 Simply setup your Firebase keyfile location and mark views which need authentication with the FirebaseAuthMixin authentication class.
 
 
