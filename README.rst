@@ -15,7 +15,7 @@ Install via pip::
 
     pip install django-firebase-auth
 
-(This will also install dependencies django-rest-framework and firebase-admin)
+(This will also install dependencies `django-rest-framework <https://github.com/encode/django-rest-framework/>`_ and `firebase-admin <https://github.com/firebase/firebase-admin-python/>`_.)
 
 Quick start
 -----------
