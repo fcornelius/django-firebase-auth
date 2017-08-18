@@ -8,6 +8,15 @@ Simply setup your Firebase keyfile location and mark views which need authentica
 
 Detailed documentation is in the "docs" directory.
 
+Installation
+-----------
+
+Install via pip::
+
+    pip install django-firebase-auth
+
+(This will also install dependencies django-rest-framework and firebase-admin)
+
 Quick start
 -----------
 
