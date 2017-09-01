@@ -10,5 +10,9 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='django-firebase-auth',
     version='0.4',
-    packages=find_packages()
+    packages=find_packages(),
+    install_requires=[
+          'firebase-admin',
+          'djangorestframework'
+    ]
 )
