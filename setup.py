@@ -14,5 +14,11 @@ setup(
     install_requires=[
           'firebase-admin',
           'djangorestframework'
-    ]
+    ],
+    include_package_data=True,
+    license='BSD License', 
+    description='A django-rest-framework authentication provider for Google\'s Firebase Authentication Service',
+    long_description=README,
+    author='Felix Cornelius',
+    author_email='mail@felixcornelius.de'
 )
