@@ -20,5 +20,18 @@ setup(
     description='A django-rest-framework authentication provider for Google\'s Firebase Authentication Service',
     long_description=README,
     author='Felix Cornelius',
-    author_email='mail@felixcornelius.de'
+    author_email='mail@felixcornelius.de',
+    classifiers=[
+        'Environment :: Web Environment',
+        'Framework :: Django',
+        'Framework :: Django :: 1.11',  
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License', 
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Topic :: Internet :: WWW/HTTP',
+        'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+    ],
 )
