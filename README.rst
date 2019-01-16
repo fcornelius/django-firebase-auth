@@ -37,7 +37,7 @@ Quick start
 3. Either set FirebaseAuthentication as the global default authentication class in settings, like::
     
     REST_FRAMEWORK = {
-        DEFAULT_AUTHENTICATION_CLASSES': ('firebase_auth.authentication.FirebaseAuthentication', ),
+        'DEFAULT_AUTHENTICATION_CLASSES': ('firebase_auth.authentication.FirebaseAuthentication', ),
     }
 
    Or extend specific views from FirebaseAuthMixin, like::
